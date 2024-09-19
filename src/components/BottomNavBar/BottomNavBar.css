@@ -1,0 +1,97 @@
+.whole-bottom-nav {
+    height: 77px;
+    background-color: #2f68fd;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: -moz-available;
+
+}
+.bottom-nav {
+    height: 60px;
+    width: fit-content;
+    background-color: #2f68fd;
+    display: flex;
+}
+.bottom-nav .icons {
+    margin: 0px 5px 0px 0px;
+    width: 55px;
+    height: 60px;
+    background-color: #2f68fd;
+    color: white;
+    display: grid;
+    align-items: flex-start;
+}
+#home,
+#task,
+#create,
+#manage,
+#leader{
+    text-decoration: none;
+}
+.home-txt,
+.task-txt,
+.create-txt,
+.manage-txt,
+.leader-txt{
+    display: none;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+    bottom: 5px;
+}
+
+#home-icon,
+#task-icon,
+#create-icon,
+#manage-icon,
+#leader-icon {
+    position: relative;
+    padding: 5px;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    margin: auto;
+}
+
+#home-icon:hover {
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+
+#task-icon:hover {
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+
+#create-icon:hover {
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+
+#manage-icon:hover {
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+
+#leader-icon:hover {
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+
+.raised{
+    bottom: 36px;
+    background-color: #2f68fd;
+    border: 5px solid white;
+}
+.txt-raised{
+  display: flex;
+  bottom: 30px;
+  font-weight: 600;
+}

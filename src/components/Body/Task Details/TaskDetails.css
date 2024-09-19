@@ -1,0 +1,78 @@
+.task-details-main-body {
+    padding: 65px 10px 77px 10px;
+    z-index: 1;
+    display: grid;
+}
+.task-bar{
+    display: grid;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.task-bar .task-bar-p1{
+   margin: 10px;
+   color: white;
+}
+.task-bar .task-bar-p2{
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+
+ }
+
+.task-board{
+    border: 1px solid #2f68fd;
+    padding: 5px;
+    border-radius: 10px;
+}
+.task-nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    border-bottom: 2px solid grey;
+}
+.task-nav p {
+    margin: 5px;
+}
+#details-tab p {
+    margin: 10px;
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+.task-mt {
+    font-weight: 600;
+}
+.start {
+    display: flex;
+    align-items: center;
+}
+.start-t{
+    background-color: #ec5120;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.points {
+    display: flex;
+    align-items: center;
+}
+.points-t{
+    background-color:#2f68fd;
+    color: white;
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-p{
+    background-color: #ec5120;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

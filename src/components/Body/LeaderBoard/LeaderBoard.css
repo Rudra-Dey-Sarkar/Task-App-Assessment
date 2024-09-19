@@ -1,0 +1,369 @@
+.leader-board-body {
+    padding: 65px 10px 77px 10px;
+    z-index: 1;
+}
+
+.lb-btns {
+    border: 1px solid #ff9f29;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.lb-btns p {
+    border-radius: 20px;
+    width: 30%;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.lb-btns-active {
+    background-color: #ff9f29;
+    color: white;
+}
+
+
+.leader-board {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+#gb {
+    font-size: 3rem;
+}
+
+#gb-icon {
+    color: red;
+}
+
+#user1 {
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.user1-t1 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.user1-t2 {
+    margin: 0;
+    text-align: center;
+}
+#user1-icon {
+    border: 1px solid gray;
+    background-color: #71e2ef;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+
+}
+.user1-t3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user1-t4 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user1-t5 {
+    color: #ff9f29;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+#user2 {
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+}
+.user2-t1 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+#trophy-icon {
+    color: #fedf30;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2rem;
+}
+#user2-icon {
+    border: 5px solid #42c57b;
+    background-color: #71e2ef;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    font-size: 4rem;
+    width: 70px;
+    height: 70px;
+}
+.user2-t2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user2-t3 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user2-t4 {
+    color: #ff9f29;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+#user3 {
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.user3-t1 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.user3-t2 {
+    margin: 0;
+    text-align: center;
+}
+#user3-icon {
+    border: 1px solid gray;
+    background-color: #71e2ef;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+
+}
+.user3-t3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user3-t4 {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.user3-t5 {
+    color: #ff9f29;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+#time {
+    color: #42c57b;
+    font-size: 3.2rem;
+}
+
+#timer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: red;
+    font-size: 1.4rem;
+}
+
+.users{
+    cursor: pointer;
+}
+#user-all {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 30px;
+    padding: 0px 5px 0px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dp-n-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-all-icon {
+    margin: 0;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #71e2ef;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.n {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.r {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.u-pr {
+    color: #ff9f29;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.u-po {
+    color: #42c57b;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+#info {
+    position: fixed;
+    z-index: 7;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: whitesmoke;
+    display: none;
+    justify-content: center;
+    width: fit-content;
+}
+.close {
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: end;
+}
+#close-btn {
+    margin-right: 20px;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+#close-btn:hover {
+    cursor: pointer;
+}
+#info-dp {
+    margin: auto;
+    font-size: 4rem;
+    background-color: #71e2ef;
+    padding: 10px;
+    border-radius: 100%;
+}
+.info-user {
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: fit-content;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.info-user div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.p1 {
+    font-weight: 600;
+    margin: auto;
+    width: fit-content;
+}
+.p2 {
+    padding: 2px;
+    background-color: #42c57b;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    width: fit-content;
+}
+#male {
+    margin-right: 5px;
+}
+.p3 {
+    margin: 0;
+    width: fit-content;
+    background-color: #2f68fd;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.p4 {
+    margin: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+.p5 {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+.info-stats {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.stats1 p {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 3px;
+    background-color: #ff9f29;
+    color: white;
+    width: 30vw;
+}
+.stats2 p {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    width: 30vw;
+}
+.stats3 p {
+    border: 1px solid gray;
+    width: 30vw;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 3px;
+    width: 30vw;
+}

@@ -1,0 +1,413 @@
+.home-body {
+     padding: 65px 10px 77px 10px;
+     z-index: 1;
+}
+
+.money-zone {
+     display: flex;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+.wallet,
+.earnings,
+.referrals {
+     margin-right: 10px;
+     width: 30%;
+     height: 45px;
+     padding: 10px;
+     border: 1px solid grey;
+     border-radius: 15px;
+}
+
+.wallet .mt1 {
+     color: grey;
+     margin: 0;
+}
+
+.wallet .mt2 {
+     font-size: 1.1rem;
+     font-weight: 600;
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: green;
+}
+
+.earnings .mt1 {
+     color: grey;
+     margin: 0;
+}
+
+.earnings .mt2 {
+     font-size: 1.1rem;
+     font-weight: 600;
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #2f68fd;
+}
+
+.referrals .mt1 {
+     color: grey;
+     margin: 0;
+}
+
+.referrals .mt2 {
+     font-size: 1.1rem;
+     font-weight: 600;
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #fccd0f;
+}
+
+
+.social-task-apps {
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     margin-bottom: 25px;
+}
+.stt{
+font-weight: 600;
+}
+.social-task-apps1 {
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+#insta-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#insta-icon {
+     margin: auto;
+     border-radius: 10px;
+     padding: 2px;
+     font-size: 2rem;
+     background-image: linear-gradient(to bottom left, #d03b97, yellow);
+     color: white;
+}
+#insta-task p {
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+#fb-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#fb-icon {
+     margin: auto;
+     border-radius: 10px;
+     padding: 2px;
+     font-size: 2rem;
+     background-color: #1976d2;
+     color: white;
+}
+#fb-task p {
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+#x-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#x-icon {
+     margin: auto;
+     border-radius: 10px;
+     padding: 2px;
+     font-size: 2rem;
+     background-color: cyan;
+     color: white;
+}
+#x-task p {
+     margin: auto;
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+
+.social-task-apps2 {
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+#yt-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#yt-icon {
+     margin: auto;
+     border-radius: 10px;
+     padding: 2px;
+     font-size: 2rem;
+     background-color: red;
+     color: white;
+}
+#yt-task p {
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+#tele-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#tele-icon {
+     margin: auto;
+     border-radius: 100%;
+     padding: 5px;
+     font-size: 1.9rem;
+     background-color: #039be5;
+     color: white;
+}
+#tele-task p {
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+#li-task {
+     padding: 5px 10px 5px 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+     width: 25%;
+     height: 65px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
+#li-icon {
+     margin: auto;
+     border-radius: 10px;
+     padding: 5px 3px 5px 3px;
+     font-size: 1.9rem;
+     background-color: #0077b5;
+     color: white;
+}
+#li-task p {
+     margin: auto;
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+.links{
+     margin: 20px 0px 20px 0px;
+     padding: 10px;
+     box-shadow: 0px 0px 5px gray;
+     border-radius: 10px;
+}
+.lmt{
+     margin: 10px;
+     font-weight: 600;
+     text-align: center;
+}
+.links-all{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#cl{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+#cl-icon{
+     margin: auto;
+     padding: 10px;
+     border-radius: 100%;
+     background-color: #e1ecff;
+     border: 1px solid gray;
+     color: blue;
+     font-size: 1.4rem;
+}
+#cl p{
+    margin: 0; 
+}
+
+#wpl{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+#wpl-icon{
+     margin: auto;
+     padding: 10px;
+     border-radius: 100%;
+     background-color: #e5f6e7;
+     border: 1px solid gray;
+     color: #2ab13f;
+     font-size: 1.4rem;
+}
+#wpl p{
+    margin: 0; 
+}
+
+#fbl{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+#fbl-icon{
+     margin: auto;
+     padding: 10px;
+     border-radius: 100%;
+     background-color: #e1ecff;
+     border: 1px solid gray;
+     color: blue;
+     font-size: 1.4rem;
+}
+#fbl p{
+    margin: 0; 
+}
+
+#tg{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+#tgl-icon{
+     margin-left: 10px;
+     padding: 10px;
+     border-radius: 100%;
+     background-color: #e4f3fb;
+     border: 1px solid gray;
+     color: #28a1da;
+     font-size: 1.4rem;
+}
+#tgl p{
+    margin: 0; 
+}
+
+.options{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+
+}
+#opt1{
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px gray;
+     width: 47%;
+     display: grid;
+     padding: 10px 0px 10px 0px;
+}
+#opt1-icon{
+     color: #1976d2;
+     margin: auto;
+     font-size: 2rem;
+}
+#opt1 p{
+     font-size: 0.9rem;
+     margin: 0;
+     text-align: center;
+}
+#opt2{
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px gray;
+     width: 50%;
+     display: grid;
+     padding: 10px;
+     padding: 10px 0px 10px 0px;
+}
+#opt2-icon{
+     color: #1976d2;
+     margin: auto;
+     font-size: 2rem;
+}
+#opt2 p{
+     font-size: 0.9rem;
+     margin: 0;
+     text-align: center;
+}
+
+.contacts{
+ box-shadow: 0px 0px 5px gray;
+ border-radius: 10px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: 10px;
+}
+.contacts p{
+     margin: 5px;
+     font-weight: 600;
+     text-align: center;
+}
+.contact-links{
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.9rem;
+}
+
+#cwp-icon{
+     color: #2ab13f;
+}
+#ctg-icon{
+     color: #039be5;
+}
+#cyt-icon{
+    color: red;
+}
+#ct-icon{
+   color: #039be5;
+}
+#cin-icon{
+    color: purple;
+}
+#cfb-icon{
+  color: #2f68fd;
+}

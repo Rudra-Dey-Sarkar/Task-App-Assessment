@@ -2,7 +2,7 @@
     z-index: 2;
     position: fixed;
     top: 0;
-    width: -moz-available;
+    width: 100vw;
     height: 55px;
     padding: 5px;
     display: flex;
